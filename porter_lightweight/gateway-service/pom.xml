@@ -8,6 +8,7 @@
     <artifactId>porter-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  
 
   <artifactId>porter-gateway-service</artifactId>
   <packaging>jar</packaging>
@@ -25,10 +26,12 @@
     <dependency>
       <groupId>org.apache.servicecomb</groupId>
       <artifactId>edge-core</artifactId>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.servicecomb</groupId>
       <artifactId>metrics-core</artifactId>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
   <build>
