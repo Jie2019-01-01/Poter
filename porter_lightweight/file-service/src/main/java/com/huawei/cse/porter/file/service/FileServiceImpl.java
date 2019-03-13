@@ -15,7 +15,17 @@ public class FileServiceImpl implements com.huawei.cse.porter.file.api.FileServi
     public String uploadFile(MultipartFile file) {
         return fileService.uploadFile(file);
     }
-
+/**
+ * ************************************
+ * ****
+ * ************************************
+ * ************************************
+ * 
+ * ************************************
+ * V
+ * V
+ * ************************************
+ */
     public boolean deleteFile(String id) {
         String session = ContextUtils.getInvocationContext().getContext("session-info");
         if (session == null) {
