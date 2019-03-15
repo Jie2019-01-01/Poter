@@ -1,5 +1,10 @@
-fetch的时候，状态是everything up to date，这个是没问题的。merge的时候抛了个异常。异常信息是：An internal error occurred during: "Merging with refs/remotes/origin/master". 
-Exception caught during execution of merge command. org.eclipse.jgit.errors.NoMergeBaseException: No merge base could be determined. Reason=CONFLICTS_DURING_MERGE_BASE_CALCULATION. "More than 200 merge bases for: 
- a 7abff2535bbd9e52297134046529787edaeb4308 
- b fe1827998b9347e834264aaf2a0415d7c37ec29a found: 
 
+太阳乐无忧 2017/05/12 22:50
+这是说要你解决了文件冲突再PUSH，先从远程仓PULL到本地合并冲突文件后才可以同步到远程仓。
+
+ 评论 (0)  引用此答案  举报
+0
+kayura 2018/07/12 18:03
+我也经常这样。就一个人用 git ，哪里来的文件冲突。。
+
+ 评论 (0)  引用此答案  举报
